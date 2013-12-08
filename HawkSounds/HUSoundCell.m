@@ -60,7 +60,7 @@
 
         [self.player setNumberOfLoops:0];
         [self.player play];
-        timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateTime) userInfo:nil repeats:YES];
+        timer = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(updateTime) userInfo:nil repeats:YES];
         
         [self.playPauseButton setTitle:@"Pause" forState:UIControlStateNormal];
         
@@ -75,7 +75,7 @@
         } else {
             // already paused
             [self.player play];
-            timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateTime) userInfo:nil repeats:YES];
+            timer = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(updateTime) userInfo:nil repeats:YES];
             [self.playPauseButton setTitle:@"Pause" forState:UIControlStateNormal];
 
         }

@@ -35,8 +35,8 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="62"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="21" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label asdf asdf asdf asdf asdf  asdf asdf asdf " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" preferredMaxLayoutWidth="302" translatesAutoresizingMaskIntoConstraints="NO" id="rHG-qV-AFv">
-                                            <rect key="frame" x="11" y="0.0" width="302" height="32"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="21" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label asdf asdf asdf asdf asdf  asdf asdf asdf " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" preferredMaxLayoutWidth="293" translatesAutoresizingMaskIntoConstraints="NO" id="rHG-qV-AFv">
+                                            <rect key="frame" x="20" y="0.0" width="293" height="32"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
