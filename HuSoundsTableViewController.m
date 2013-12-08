@@ -34,10 +34,27 @@
     
     records = @[
                 @{@"name":@"Coopers Hawk",
-                  @"sounds":
-                    @[
+                  @"sounds":@[
                         @{@"name":@"Distress", @"filename":@"Coopers_Hawk_Distress"},
-                        @{@"name":@"Chick", @"filename":@"Coopers_Hawk_Chick"}
+                        @{@"name":@"Chick", @"filename":@"Coopers_Hawk_Chick"},
+                        @{@"name":@"Food", @"filename":@"Coopers_Hawk_Food"},
+                        @{@"name":@"Alarm", @"filename":@"Cooper_Hawk_Alarm"},
+                        @{@"name":@"Near Nest", @"filename":@"Cooper_Hawk_Near_Nest"}
+                    ]
+                  },
+                @{@"name":@"Sharp Shinned Hawk",
+                  @"sounds":@[
+                          @{@"name":@"Various", @"filename":@"Sharp_Shinned_Various"},
+                          @{@"name":@"Squeaky", @"filename":@"Sharp_Shinned_Squeaky"},
+                          @{@"name":@"Alarm Call", @"filename":@"Sharp_Shinned_Alarm_Call"}
+                    ]
+                  },
+                @{@"name":@"Red Tailed Hawk",
+                  @"sounds":@[
+                        @{@"name":@"Scolding Call", @"filename":@"Red_Tailed_Hawk_Scolding_Call"},
+                        @{@"name":@"Chick", @"filename":@"Red_Tailed_Hawk_Chick"},
+                        @{@"name":@"Adult Scream", @"filename":@"Red_Tailed_Hawk_Adult_Scream"},
+                        @{@"name":@"Scream", @"filename":@"Red_Tailed_Hawk_Scream"}
                     ]
                   }
                 ];
@@ -58,7 +75,6 @@
 }
 
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-    NSLog(@"section = %d", section);
     return records[section][@"name"];
 }
 
