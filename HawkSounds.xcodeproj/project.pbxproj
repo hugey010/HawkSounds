@@ -19,6 +19,23 @@
 		1EF30B101853CD00007FA696 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF30AF81853CD00007FA696 /* UIKit.framework */; };
 		1EF30B181853CD00007FA696 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B161853CD00007FA696 /* InfoPlist.strings */; };
 		1EF30B1A1853CD00007FA696 /* HawkSoundsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF30B191853CD00007FA696 /* HawkSoundsTests.m */; };
+		1EF30B241853CD6D007FA696 /* HUHawkSounds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B231853CD6D007FA696 /* HUHawkSounds.storyboard */; };
+		1EF30B2A1853CEE8007FA696 /* HuSoundsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF30B291853CEE8007FA696 /* HuSoundsTableViewController.m */; };
+		1EF30B381853DAFE007FA696 /* Coopers_Hawk_Distress.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B2C1853DAFE007FA696 /* Coopers_Hawk_Distress.mp3 */; };
+		1EF30B391853DAFE007FA696 /* Coopers_Hawk_Chick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B2D1853DAFE007FA696 /* Coopers_Hawk_Chick.mp3 */; };
+		1EF30B3A1853DAFE007FA696 /* Coopers_Hawk_Food.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B2E1853DAFE007FA696 /* Coopers_Hawk_Food.mp3 */; };
+		1EF30B3B1853DAFE007FA696 /* Cooper_Hawk_Alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B2F1853DAFE007FA696 /* Cooper_Hawk_Alarm.mp3 */; };
+		1EF30B3C1853DAFE007FA696 /* Cooper_Hawk_Near_Nest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B301853DAFE007FA696 /* Cooper_Hawk_Near_Nest.mp3 */; };
+		1EF30B3D1853DAFE007FA696 /* Sharp_Shinned_Various.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B311853DAFE007FA696 /* Sharp_Shinned_Various.mp3 */; };
+		1EF30B3E1853DAFE007FA696 /* Sharp_Shinned_Squeaky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B321853DAFE007FA696 /* Sharp_Shinned_Squeaky.mp3 */; };
+		1EF30B3F1853DAFE007FA696 /* Sharp_Shinned_Alarm_Call.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B331853DAFE007FA696 /* Sharp_Shinned_Alarm_Call.mp3 */; };
+		1EF30B401853DAFE007FA696 /* Red_Tailed_Hawk_Chick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B341853DAFE007FA696 /* Red_Tailed_Hawk_Chick.mp3 */; };
+		1EF30B411853DAFE007FA696 /* Red_Tailed_Hawk_Scolding_Call.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B351853DAFE007FA696 /* Red_Tailed_Hawk_Scolding_Call.mp3 */; };
+		1EF30B421853DAFE007FA696 /* Red_Tailed_Hawk_Adult_Scream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B361853DAFE007FA696 /* Red_Tailed_Hawk_Adult_Scream.mp3 */; };
+		1EF30B431853DAFE007FA696 /* Red_Tailed_Hawk_Scream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B371853DAFE007FA696 /* Red_Tailed_Hawk_Scream.mp3 */; };
+		1EF30B461853E51C007FA696 /* HUHawkListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF30B451853E51C007FA696 /* HUHawkListController.m */; };
+		1EF30B48185504FD007FA696 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF30B47185504FD007FA696 /* AVFoundation.framework */; };
+		1EF30B4B1855067E007FA696 /* HUSoundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF30B4A1855067E007FA696 /* HUSoundCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +65,26 @@
 		1EF30B151853CD00007FA696 /* HawkSoundsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HawkSoundsTests-Info.plist"; sourceTree = "<group>"; };
 		1EF30B171853CD00007FA696 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1EF30B191853CD00007FA696 /* HawkSoundsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HawkSoundsTests.m; sourceTree = "<group>"; };
+		1EF30B231853CD6D007FA696 /* HUHawkSounds.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = HUHawkSounds.storyboard; path = ../HUHawkSounds.storyboard; sourceTree = "<group>"; };
+		1EF30B281853CEE8007FA696 /* HuSoundsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HuSoundsTableViewController.h; path = ../HuSoundsTableViewController.h; sourceTree = "<group>"; };
+		1EF30B291853CEE8007FA696 /* HuSoundsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HuSoundsTableViewController.m; path = ../HuSoundsTableViewController.m; sourceTree = "<group>"; };
+		1EF30B2C1853DAFE007FA696 /* Coopers_Hawk_Distress.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Coopers_Hawk_Distress.mp3; sourceTree = "<group>"; };
+		1EF30B2D1853DAFE007FA696 /* Coopers_Hawk_Chick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Coopers_Hawk_Chick.mp3; sourceTree = "<group>"; };
+		1EF30B2E1853DAFE007FA696 /* Coopers_Hawk_Food.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Coopers_Hawk_Food.mp3; sourceTree = "<group>"; };
+		1EF30B2F1853DAFE007FA696 /* Cooper_Hawk_Alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cooper_Hawk_Alarm.mp3; sourceTree = "<group>"; };
+		1EF30B301853DAFE007FA696 /* Cooper_Hawk_Near_Nest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cooper_Hawk_Near_Nest.mp3; sourceTree = "<group>"; };
+		1EF30B311853DAFE007FA696 /* Sharp_Shinned_Various.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sharp_Shinned_Various.mp3; sourceTree = "<group>"; };
+		1EF30B321853DAFE007FA696 /* Sharp_Shinned_Squeaky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sharp_Shinned_Squeaky.mp3; sourceTree = "<group>"; };
+		1EF30B331853DAFE007FA696 /* Sharp_Shinned_Alarm_Call.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sharp_Shinned_Alarm_Call.mp3; sourceTree = "<group>"; };
+		1EF30B341853DAFE007FA696 /* Red_Tailed_Hawk_Chick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Red_Tailed_Hawk_Chick.mp3; sourceTree = "<group>"; };
+		1EF30B351853DAFE007FA696 /* Red_Tailed_Hawk_Scolding_Call.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Red_Tailed_Hawk_Scolding_Call.mp3; sourceTree = "<group>"; };
+		1EF30B361853DAFE007FA696 /* Red_Tailed_Hawk_Adult_Scream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Red_Tailed_Hawk_Adult_Scream.mp3; sourceTree = "<group>"; };
+		1EF30B371853DAFE007FA696 /* Red_Tailed_Hawk_Scream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Red_Tailed_Hawk_Scream.mp3; sourceTree = "<group>"; };
+		1EF30B441853E51C007FA696 /* HUHawkListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HUHawkListController.h; path = ../HUHawkListController.h; sourceTree = "<group>"; };
+		1EF30B451853E51C007FA696 /* HUHawkListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HUHawkListController.m; path = ../HUHawkListController.m; sourceTree = "<group>"; };
+		1EF30B47185504FD007FA696 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1EF30B491855067E007FA696 /* HUSoundCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUSoundCell.h; sourceTree = "<group>"; };
+		1EF30B4A1855067E007FA696 /* HUSoundCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUSoundCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF30B48185504FD007FA696 /* AVFoundation.framework in Frameworks */,
 				1EF30AF71853CD00007FA696 /* CoreGraphics.framework in Frameworks */,
 				1EF30AF91853CD00007FA696 /* UIKit.framework in Frameworks */,
 				1EF30AF51853CD00007FA696 /* Foundation.framework in Frameworks */,
@@ -96,6 +134,7 @@
 		1EF30AF31853CD00007FA696 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1EF30B47185504FD007FA696 /* AVFoundation.framework */,
 				1EF30AF41853CD00007FA696 /* Foundation.framework */,
 				1EF30AF61853CD00007FA696 /* CoreGraphics.framework */,
 				1EF30AF81853CD00007FA696 /* UIKit.framework */,
@@ -107,10 +146,18 @@
 		1EF30AFA1853CD00007FA696 /* HawkSounds */ = {
 			isa = PBXGroup;
 			children = (
+				1EF30B441853E51C007FA696 /* HUHawkListController.h */,
+				1EF30B451853E51C007FA696 /* HUHawkListController.m */,
+				1EF30B281853CEE8007FA696 /* HuSoundsTableViewController.h */,
+				1EF30B291853CEE8007FA696 /* HuSoundsTableViewController.m */,
+				1EF30B231853CD6D007FA696 /* HUHawkSounds.storyboard */,
+				1EF30B2B1853DAF3007FA696 /* Sounds */,
 				1EF30B031853CD00007FA696 /* HUAppDelegate.h */,
 				1EF30B041853CD00007FA696 /* HUAppDelegate.m */,
 				1EF30B061853CD00007FA696 /* Images.xcassets */,
 				1EF30AFB1853CD00007FA696 /* Supporting Files */,
+				1EF30B491855067E007FA696 /* HUSoundCell.h */,
+				1EF30B4A1855067E007FA696 /* HUSoundCell.m */,
 			);
 			path = HawkSounds;
 			sourceTree = "<group>";
@@ -142,6 +189,25 @@
 				1EF30B161853CD00007FA696 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EF30B2B1853DAF3007FA696 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1EF30B2C1853DAFE007FA696 /* Coopers_Hawk_Distress.mp3 */,
+				1EF30B2D1853DAFE007FA696 /* Coopers_Hawk_Chick.mp3 */,
+				1EF30B2E1853DAFE007FA696 /* Coopers_Hawk_Food.mp3 */,
+				1EF30B2F1853DAFE007FA696 /* Cooper_Hawk_Alarm.mp3 */,
+				1EF30B301853DAFE007FA696 /* Cooper_Hawk_Near_Nest.mp3 */,
+				1EF30B311853DAFE007FA696 /* Sharp_Shinned_Various.mp3 */,
+				1EF30B321853DAFE007FA696 /* Sharp_Shinned_Squeaky.mp3 */,
+				1EF30B331853DAFE007FA696 /* Sharp_Shinned_Alarm_Call.mp3 */,
+				1EF30B341853DAFE007FA696 /* Red_Tailed_Hawk_Chick.mp3 */,
+				1EF30B351853DAFE007FA696 /* Red_Tailed_Hawk_Scolding_Call.mp3 */,
+				1EF30B361853DAFE007FA696 /* Red_Tailed_Hawk_Adult_Scream.mp3 */,
+				1EF30B371853DAFE007FA696 /* Red_Tailed_Hawk_Scream.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +258,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Hugey;
 				TargetAttributes = {
+					1EF30AF01853CD00007FA696 = {
+						DevelopmentTeam = 4FE36XCZ5Z;
+					};
 					1EF30B0B1853CD00007FA696 = {
 						TestTargetID = 1EF30AF01853CD00007FA696;
 					};
@@ -220,8 +289,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF30B411853DAFE007FA696 /* Red_Tailed_Hawk_Scolding_Call.mp3 in Resources */,
+				1EF30B381853DAFE007FA696 /* Coopers_Hawk_Distress.mp3 in Resources */,
+				1EF30B421853DAFE007FA696 /* Red_Tailed_Hawk_Adult_Scream.mp3 in Resources */,
+				1EF30B3E1853DAFE007FA696 /* Sharp_Shinned_Squeaky.mp3 in Resources */,
 				1EF30AFF1853CD00007FA696 /* InfoPlist.strings in Resources */,
+				1EF30B3B1853DAFE007FA696 /* Cooper_Hawk_Alarm.mp3 in Resources */,
+				1EF30B391853DAFE007FA696 /* Coopers_Hawk_Chick.mp3 in Resources */,
+				1EF30B3A1853DAFE007FA696 /* Coopers_Hawk_Food.mp3 in Resources */,
 				1EF30B071853CD00007FA696 /* Images.xcassets in Resources */,
+				1EF30B3D1853DAFE007FA696 /* Sharp_Shinned_Various.mp3 in Resources */,
+				1EF30B241853CD6D007FA696 /* HUHawkSounds.storyboard in Resources */,
+				1EF30B3F1853DAFE007FA696 /* Sharp_Shinned_Alarm_Call.mp3 in Resources */,
+				1EF30B3C1853DAFE007FA696 /* Cooper_Hawk_Near_Nest.mp3 in Resources */,
+				1EF30B401853DAFE007FA696 /* Red_Tailed_Hawk_Chick.mp3 in Resources */,
+				1EF30B431853DAFE007FA696 /* Red_Tailed_Hawk_Scream.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +322,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF30B4B1855067E007FA696 /* HUSoundCell.m in Sources */,
+				1EF30B2A1853CEE8007FA696 /* HuSoundsTableViewController.m in Sources */,
+				1EF30B461853E51C007FA696 /* HUHawkListController.m in Sources */,
 				1EF30B011853CD00007FA696 /* main.m in Sources */,
 				1EF30B051853CD00007FA696 /* HUAppDelegate.m in Sources */,
 			);
@@ -362,10 +447,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HawkSounds/HawkSounds-Prefix.pch";
 				INFOPLIST_FILE = "HawkSounds/HawkSounds-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -375,10 +463,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HawkSounds/HawkSounds-Prefix.pch";
 				INFOPLIST_FILE = "HawkSounds/HawkSounds-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

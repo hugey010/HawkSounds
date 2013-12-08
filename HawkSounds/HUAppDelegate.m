@@ -14,6 +14,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"HUHawkSounds" bundle:nil];
+    self.window.rootViewController = [storyboard instantiateInitialViewController];
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
