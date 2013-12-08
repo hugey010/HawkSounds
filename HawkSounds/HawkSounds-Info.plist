@@ -8,8 +8,38 @@
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>hawk58</string>
+				<string>hawk80</string>
+				<string>hawk120</string>
+				<string>hawkface</string>
+			</array>
+		</dict>
+	</dict>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>hawk58</string>
+				<string>hawk29</string>
+				<string>hawk40</string>
+				<string>hawk152</string>
+				<string>hawk80</string>
+				<string>hawk76</string>
+				<string>hawk120</string>
+				<string>hawkface</string>
+			</array>
+		</dict>
+	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.hugey.hawksounds.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.hugey.hawksounds</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
