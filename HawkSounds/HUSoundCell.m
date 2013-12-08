@@ -43,6 +43,7 @@
     
     NSError *error = nil;
     self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    [self.player prepareToPlay];
     audioDurationSeconds = self.player.duration;
 }
 
@@ -55,30 +56,17 @@
 
 - (IBAction)playPauseButtonPressed:(id)sender {
     
-    if (!self.player) {
-        // player hasn't been allocated yet. set it up and play
+    if (self.player.isPlaying) {
+        // already playing
+        [self.player pause];
+        [timer invalidate];
+        [self.playPauseButton setTitle:@"Play" forState:UIControlStateNormal];
 
-        [self.player setNumberOfLoops:0];
+    } else {
         [self.player play];
         timer = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(updateTime) userInfo:nil repeats:YES];
-        
         [self.playPauseButton setTitle:@"Pause" forState:UIControlStateNormal];
-        
-        
-    } else {
-        if (self.player.isPlaying) {
-            // already playing
-            [self.player pause];
-            [timer invalidate];
-            [self.playPauseButton setTitle:@"Play" forState:UIControlStateNormal];
 
-        } else {
-            // already paused
-            [self.player play];
-            timer = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(updateTime) userInfo:nil repeats:YES];
-            [self.playPauseButton setTitle:@"Pause" forState:UIControlStateNormal];
-
-        }
     }
 }
 

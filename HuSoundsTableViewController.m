@@ -56,6 +56,11 @@
                         @{@"name":@"Adult Scream", @"filename":@"Red_Tailed_Hawk_Adult_Scream"},
                         @{@"name":@"Scream", @"filename":@"Red_Tailed_Hawk_Scream"}
                     ]
+                  },
+                @{@"name":@"Ferruginous Hawk",
+                  @"sounds":@[
+                          @{@"name":@"Call", @"filename":@"ferriginous_call"}
+                    ]
                   }
                 ];
 }

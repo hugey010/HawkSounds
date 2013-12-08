@@ -42,6 +42,7 @@
 		1EF30B5818552681007FA696 /* hawk29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B5218552681007FA696 /* hawk29.png */; };
 		1EF30B5918552681007FA696 /* hawk58.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B5318552681007FA696 /* hawk58.png */; };
 		1EF30B5B185526A5007FA696 /* hawk76.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B5A185526A5007FA696 /* hawk76.png */; };
+		1EF30B5D185531D4007FA696 /* ferriginous_call.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B5C185531D4007FA696 /* ferriginous_call.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,7 @@
 		1EF30B5218552681007FA696 /* hawk29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawk29.png; sourceTree = "<group>"; };
 		1EF30B5318552681007FA696 /* hawk58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawk58.png; sourceTree = "<group>"; };
 		1EF30B5A185526A5007FA696 /* hawk76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawk76.png; sourceTree = "<group>"; };
+		1EF30B5C185531D4007FA696 /* ferriginous_call.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ferriginous_call.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +212,7 @@
 		1EF30B2B1853DAF3007FA696 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				1EF30B5C185531D4007FA696 /* ferriginous_call.mp3 */,
 				1EF30B2C1853DAFE007FA696 /* Coopers_Hawk_Distress.mp3 */,
 				1EF30B2D1853DAFE007FA696 /* Coopers_Hawk_Chick.mp3 */,
 				1EF30B2E1853DAFE007FA696 /* Coopers_Hawk_Food.mp3 */,
@@ -317,6 +320,7 @@
 				1EF30B3B1853DAFE007FA696 /* Cooper_Hawk_Alarm.mp3 in Resources */,
 				1EF30B391853DAFE007FA696 /* Coopers_Hawk_Chick.mp3 in Resources */,
 				1EF30B3A1853DAFE007FA696 /* Coopers_Hawk_Food.mp3 in Resources */,
+				1EF30B5D185531D4007FA696 /* ferriginous_call.mp3 in Resources */,
 				1EF30B5518552681007FA696 /* hawk120.png in Resources */,
 				1EF30B071853CD00007FA696 /* Images.xcassets in Resources */,
 				1EF30B5918552681007FA696 /* hawk58.png in Resources */,
