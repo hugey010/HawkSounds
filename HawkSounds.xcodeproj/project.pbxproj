@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E7AC1B318567A4600CE719E /* spreadeagle_400.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7AC1B218567A4600CE719E /* spreadeagle_400.png */; };
 		1EA643901855379800BF982B /* bald_eagle_lowkuk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA643881855379800BF982B /* bald_eagle_lowkuk.mp3 */; };
 		1EA643911855379800BF982B /* bald_eagle_juvenile_begging.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA643891855379800BF982B /* bald_eagle_juvenile_begging.mp3 */; };
 		1EA643921855379800BF982B /* bald_eagle_juvenile_peal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6438A1855379800BF982B /* bald_eagle_juvenile_peal.mp3 */; };
@@ -21,6 +22,11 @@
 		1EA643A118553C1A00BF982B /* generic_hawk_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6439B18553C1A00BF982B /* generic_hawk_2.mp3 */; };
 		1EA643A218553C1A00BF982B /* generic_hawk_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6439C18553C1A00BF982B /* generic_hawk_1.mp3 */; };
 		1EA643A318553C1A00BF982B /* osprey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6439D18553C1A00BF982B /* osprey.mp3 */; };
+		1EA643A71856726600BF982B /* hawesome_splash_2048x1536.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EA643A61856726600BF982B /* hawesome_splash_2048x1536.png */; };
+		1EA643A9185672C400BF982B /* hawesome_splash_1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EA643A8185672C400BF982B /* hawesome_splash_1024x768.png */; };
+		1EA643AB1856733000BF982B /* hawesome_splash_640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EA643AA1856733000BF982B /* hawesome_splash_640x1136.png */; };
+		1EA643AD1856736D00BF982B /* hawesome_splash_1536x2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EA643AC1856736D00BF982B /* hawesome_splash_1536x2048.png */; };
+		1EA643AF185673C200BF982B /* hawesome_splash_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EA643AE185673C200BF982B /* hawesome_splash_640x960.png */; };
 		1EF30AF51853CD00007FA696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF30AF41853CD00007FA696 /* Foundation.framework */; };
 		1EF30AF71853CD00007FA696 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF30AF61853CD00007FA696 /* CoreGraphics.framework */; };
 		1EF30AF91853CD00007FA696 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF30AF81853CD00007FA696 /* UIKit.framework */; };
@@ -70,6 +76,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E7AC1B218567A4600CE719E /* spreadeagle_400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spreadeagle_400.png; sourceTree = "<group>"; };
 		1EA643881855379800BF982B /* bald_eagle_lowkuk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bald_eagle_lowkuk.mp3; sourceTree = "<group>"; };
 		1EA643891855379800BF982B /* bald_eagle_juvenile_begging.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bald_eagle_juvenile_begging.mp3; sourceTree = "<group>"; };
 		1EA6438A1855379800BF982B /* bald_eagle_juvenile_peal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bald_eagle_juvenile_peal.mp3; sourceTree = "<group>"; };
@@ -84,6 +91,11 @@
 		1EA6439B18553C1A00BF982B /* generic_hawk_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = generic_hawk_2.mp3; sourceTree = "<group>"; };
 		1EA6439C18553C1A00BF982B /* generic_hawk_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = generic_hawk_1.mp3; sourceTree = "<group>"; };
 		1EA6439D18553C1A00BF982B /* osprey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = osprey.mp3; sourceTree = "<group>"; };
+		1EA643A61856726600BF982B /* hawesome_splash_2048x1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawesome_splash_2048x1536.png; sourceTree = "<group>"; };
+		1EA643A8185672C400BF982B /* hawesome_splash_1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawesome_splash_1024x768.png; sourceTree = "<group>"; };
+		1EA643AA1856733000BF982B /* hawesome_splash_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawesome_splash_640x1136.png; sourceTree = "<group>"; };
+		1EA643AC1856736D00BF982B /* hawesome_splash_1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawesome_splash_1536x2048.png; sourceTree = "<group>"; };
+		1EA643AE185673C200BF982B /* hawesome_splash_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawesome_splash_640x960.png; sourceTree = "<group>"; };
 		1EF30AF11853CD00007FA696 /* HawkSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HawkSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF30AF41853CD00007FA696 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1EF30AF61853CD00007FA696 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -156,6 +168,12 @@
 		1EF30AE81853CD00007FA696 = {
 			isa = PBXGroup;
 			children = (
+				1E7AC1B218567A4600CE719E /* spreadeagle_400.png */,
+				1EA643AE185673C200BF982B /* hawesome_splash_640x960.png */,
+				1EA643AC1856736D00BF982B /* hawesome_splash_1536x2048.png */,
+				1EA643AA1856733000BF982B /* hawesome_splash_640x1136.png */,
+				1EA643A61856726600BF982B /* hawesome_splash_2048x1536.png */,
+				1EA643A8185672C400BF982B /* hawesome_splash_1024x768.png */,
 				1EF30B5A185526A5007FA696 /* hawk76.png */,
 				1EF30B4E18552681007FA696 /* hawk80.png */,
 				1EF30B4F18552681007FA696 /* hawk120.png */,
@@ -364,11 +382,13 @@
 				1EA643A018553C1A00BF982B /* hawk_screeching.mp3 in Resources */,
 				1EF30B5618552681007FA696 /* hawk40.png in Resources */,
 				1EF30B3B1853DAFE007FA696 /* Cooper_Hawk_Alarm.mp3 in Resources */,
+				1EA643AB1856733000BF982B /* hawesome_splash_640x1136.png in Resources */,
 				1EF30B391853DAFE007FA696 /* Coopers_Hawk_Chick.mp3 in Resources */,
 				1EA643A118553C1A00BF982B /* generic_hawk_2.mp3 in Resources */,
 				1EA643A218553C1A00BF982B /* generic_hawk_1.mp3 in Resources */,
 				1EF30B3A1853DAFE007FA696 /* Coopers_Hawk_Food.mp3 in Resources */,
 				1EF30B5D185531D4007FA696 /* ferriginous_call.mp3 in Resources */,
+				1EA643AD1856736D00BF982B /* hawesome_splash_1536x2048.png in Resources */,
 				1EA6439E18553C1A00BF982B /* merlin.mp3 in Resources */,
 				1EA643911855379800BF982B /* bald_eagle_juvenile_begging.mp3 in Resources */,
 				1EA643941855379800BF982B /* bald_eagle_chatter.mp3 in Resources */,
@@ -379,10 +399,14 @@
 				1EA643931855379800BF982B /* bald_eagle_peal.mp3 in Resources */,
 				1EF30B5B185526A5007FA696 /* hawk76.png in Resources */,
 				1EA643921855379800BF982B /* bald_eagle_juvenile_peal.mp3 in Resources */,
+				1E7AC1B318567A4600CE719E /* spreadeagle_400.png in Resources */,
+				1EA643A9185672C400BF982B /* hawesome_splash_1024x768.png in Resources */,
+				1EA643A71856726600BF982B /* hawesome_splash_2048x1536.png in Resources */,
 				1EA6439F18553C1A00BF982B /* hawk_screeching_valley.mp3 in Resources */,
 				1EF30B3D1853DAFE007FA696 /* Sharp_Shinned_Various.mp3 in Resources */,
 				1EF30B241853CD6D007FA696 /* HUHawkSounds.storyboard in Resources */,
 				1EF30B3F1853DAFE007FA696 /* Sharp_Shinned_Alarm_Call.mp3 in Resources */,
+				1EA643AF185673C200BF982B /* hawesome_splash_640x960.png in Resources */,
 				1EF30B3C1853DAFE007FA696 /* Cooper_Hawk_Near_Nest.mp3 in Resources */,
 				1EF30B401853DAFE007FA696 /* Red_Tailed_Hawk_Chick.mp3 in Resources */,
 				1EF30B431853DAFE007FA696 /* Red_Tailed_Hawk_Scream.mp3 in Resources */,
@@ -527,7 +551,6 @@
 		1EF30B1E1853CD00007FA696 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -542,7 +565,6 @@
 		1EF30B1F1853CD00007FA696 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

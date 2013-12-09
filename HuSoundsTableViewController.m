@@ -30,6 +30,8 @@
 {
     [super viewDidLoad];
     
+    [self setupHawkBird];
+    
     [self.navigationItem setTitle:@"Hawk Sounds"];
     
     records = @[
@@ -126,20 +128,10 @@
     return cell;
 }
 
--(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+-(void)setupHawkBird {
+    UIImage *image = [UIImage imageNamed:@"spreadeagle_400.png"];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:image]; //initWithFrame:CGRectMake(0, 0, 400, 400)];
+    [self.view addSubview:imageView];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a story board-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-
- */
 
 @end
