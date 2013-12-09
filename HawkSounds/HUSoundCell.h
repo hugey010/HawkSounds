@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 
-@interface HUSoundCell : UITableViewCell
+@interface HUSoundCell : UITableViewCell <AVAudioPlayerDelegate>
 
 @property (nonatomic, strong) AVAudioPlayer *player;
 

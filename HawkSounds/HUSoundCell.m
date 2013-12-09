@@ -13,7 +13,6 @@
     NSTimeInterval audioDurationSeconds;
     NSTimeInterval currentPlayTime;
     NSTimer *timer;
-    NSDateFormatter *formatter;
 
 }
 
@@ -21,13 +20,8 @@
 
 @implementation HUSoundCell
 
-- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
-{
-    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if (self) {
-        // Initialization code
-    }
-    return self;
+-(void)dealloc {
+    self.player.delegate = nil;
 }
 
 -(void)setupWithDictionary:(NSDictionary *)data {
@@ -45,13 +39,7 @@
     self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
     [self.player prepareToPlay];
     audioDurationSeconds = self.player.duration;
-}
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated
-{
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+    self.player.delegate = self;
 }
 
 - (IBAction)playPauseButtonPressed:(id)sender {
@@ -69,7 +57,6 @@
 
     }
 }
-
 
 -(void)updateTime {
     int minutes = self.player.currentTime / 60;
@@ -89,6 +76,13 @@
     int seconds = (int)currentPlayTime % 60;
     [self.timeLabel setText:[NSString stringWithFormat:@"%d:%02d", minutes, seconds]];
     
+}
+
+#pragma AVAudioPlayerDelegate methods
+-(void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag {
+    [timer invalidate];
+    [self.playPauseButton setTitle:@"Play" forState:UIControlStateNormal];
+    self.slider.value = 0;
 }
 
 @end

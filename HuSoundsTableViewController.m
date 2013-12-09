@@ -61,7 +61,40 @@
                   @"sounds":@[
                           @{@"name":@"Call", @"filename":@"ferriginous_call"}
                     ]
-                  }
+                  },
+                @{@"name":@"American Kestrel",
+                  @"sounds":@[
+                          @{@"name":@"Klee", @"filename":@"kestrel_klee"},
+                          @{@"name":@"Chatter", @"filename":@"american_kestrel_chatter"}
+                    ]
+                  },
+                @{@"name":@"American Bald Eagle",
+                  @"sounds":@[
+                          @{@"name":@"Chatter", @"filename":@"bald_eagle_chatter"},
+                          @{@"name":@"Low Kuk", @"filename":@"bald_eagle_lowkuk"},
+                          @{@"name":@"Peal", @"filename":@"bald_eagle_peal"},
+                          @{@"name":@"Juvenile Peal", @"filename":@"bald_eagle_juvenile_peal"},
+                          @{@"name":@"Juvenile Begging", @"filename":@"bald_eagle_juvenile_begging"}
+                    ]
+                  },
+                @{@"name":@"Osprey (Sea Hawk)",
+                  @"sounds":@[
+                          @{@"name":@"Call", @"filename":@"osprey"}
+                          ]
+                  },
+                @{@"name":@"Merlin (Lady Hawk)",
+                  @"sounds":@[
+                          @{@"name":@"Typical", @"filename":@"merlin"}
+                          ]
+                  },
+                @{@"name":@"Generic Hawks",
+                  @"sounds":@[
+                          @{@"name":@"Screech Echo", @"filename":@"hawk_screeching"},
+                          @{@"name":@"Screech 2", @"filename":@"generic_hawk_1"},
+                          @{@"name":@"Another Screech", @"filename":@"generic_hawk_2"},
+                          @{@"name":@"Screech Valley", @"filename":@"hawk_screeching_valley"}
+                          ]
+                  },
                 ];
 }
 

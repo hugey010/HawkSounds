@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EA643901855379800BF982B /* bald_eagle_lowkuk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA643881855379800BF982B /* bald_eagle_lowkuk.mp3 */; };
+		1EA643911855379800BF982B /* bald_eagle_juvenile_begging.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA643891855379800BF982B /* bald_eagle_juvenile_begging.mp3 */; };
+		1EA643921855379800BF982B /* bald_eagle_juvenile_peal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6438A1855379800BF982B /* bald_eagle_juvenile_peal.mp3 */; };
+		1EA643931855379800BF982B /* bald_eagle_peal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6438B1855379800BF982B /* bald_eagle_peal.mp3 */; };
+		1EA643941855379800BF982B /* bald_eagle_chatter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6438C1855379800BF982B /* bald_eagle_chatter.mp3 */; };
+		1EA643951855379800BF982B /* kestrel_various.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6438D1855379800BF982B /* kestrel_various.mp3 */; };
+		1EA643961855379800BF982B /* american_kestrel_chatter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6438E1855379800BF982B /* american_kestrel_chatter.mp3 */; };
+		1EA643971855379800BF982B /* kestrel_klee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6438F1855379800BF982B /* kestrel_klee.mp3 */; };
+		1EA6439E18553C1A00BF982B /* merlin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6439818553C1A00BF982B /* merlin.mp3 */; };
+		1EA6439F18553C1A00BF982B /* hawk_screeching_valley.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6439918553C1A00BF982B /* hawk_screeching_valley.mp3 */; };
+		1EA643A018553C1A00BF982B /* hawk_screeching.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6439A18553C1A00BF982B /* hawk_screeching.mp3 */; };
+		1EA643A118553C1A00BF982B /* generic_hawk_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6439B18553C1A00BF982B /* generic_hawk_2.mp3 */; };
+		1EA643A218553C1A00BF982B /* generic_hawk_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6439C18553C1A00BF982B /* generic_hawk_1.mp3 */; };
+		1EA643A318553C1A00BF982B /* osprey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6439D18553C1A00BF982B /* osprey.mp3 */; };
 		1EF30AF51853CD00007FA696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF30AF41853CD00007FA696 /* Foundation.framework */; };
 		1EF30AF71853CD00007FA696 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF30AF61853CD00007FA696 /* CoreGraphics.framework */; };
 		1EF30AF91853CD00007FA696 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF30AF81853CD00007FA696 /* UIKit.framework */; };
@@ -56,6 +70,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EA643881855379800BF982B /* bald_eagle_lowkuk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bald_eagle_lowkuk.mp3; sourceTree = "<group>"; };
+		1EA643891855379800BF982B /* bald_eagle_juvenile_begging.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bald_eagle_juvenile_begging.mp3; sourceTree = "<group>"; };
+		1EA6438A1855379800BF982B /* bald_eagle_juvenile_peal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bald_eagle_juvenile_peal.mp3; sourceTree = "<group>"; };
+		1EA6438B1855379800BF982B /* bald_eagle_peal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bald_eagle_peal.mp3; sourceTree = "<group>"; };
+		1EA6438C1855379800BF982B /* bald_eagle_chatter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bald_eagle_chatter.mp3; sourceTree = "<group>"; };
+		1EA6438D1855379800BF982B /* kestrel_various.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kestrel_various.mp3; sourceTree = "<group>"; };
+		1EA6438E1855379800BF982B /* american_kestrel_chatter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = american_kestrel_chatter.mp3; sourceTree = "<group>"; };
+		1EA6438F1855379800BF982B /* kestrel_klee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kestrel_klee.mp3; sourceTree = "<group>"; };
+		1EA6439818553C1A00BF982B /* merlin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = merlin.mp3; sourceTree = "<group>"; };
+		1EA6439918553C1A00BF982B /* hawk_screeching_valley.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hawk_screeching_valley.mp3; sourceTree = "<group>"; };
+		1EA6439A18553C1A00BF982B /* hawk_screeching.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hawk_screeching.mp3; sourceTree = "<group>"; };
+		1EA6439B18553C1A00BF982B /* generic_hawk_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = generic_hawk_2.mp3; sourceTree = "<group>"; };
+		1EA6439C18553C1A00BF982B /* generic_hawk_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = generic_hawk_1.mp3; sourceTree = "<group>"; };
+		1EA6439D18553C1A00BF982B /* osprey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = osprey.mp3; sourceTree = "<group>"; };
 		1EF30AF11853CD00007FA696 /* HawkSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HawkSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF30AF41853CD00007FA696 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1EF30AF61853CD00007FA696 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -212,6 +240,20 @@
 		1EF30B2B1853DAF3007FA696 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				1EA6439818553C1A00BF982B /* merlin.mp3 */,
+				1EA6439918553C1A00BF982B /* hawk_screeching_valley.mp3 */,
+				1EA6439A18553C1A00BF982B /* hawk_screeching.mp3 */,
+				1EA6439B18553C1A00BF982B /* generic_hawk_2.mp3 */,
+				1EA6439C18553C1A00BF982B /* generic_hawk_1.mp3 */,
+				1EA6439D18553C1A00BF982B /* osprey.mp3 */,
+				1EA643881855379800BF982B /* bald_eagle_lowkuk.mp3 */,
+				1EA643891855379800BF982B /* bald_eagle_juvenile_begging.mp3 */,
+				1EA6438A1855379800BF982B /* bald_eagle_juvenile_peal.mp3 */,
+				1EA6438B1855379800BF982B /* bald_eagle_peal.mp3 */,
+				1EA6438C1855379800BF982B /* bald_eagle_chatter.mp3 */,
+				1EA6438D1855379800BF982B /* kestrel_various.mp3 */,
+				1EA6438E1855379800BF982B /* american_kestrel_chatter.mp3 */,
+				1EA6438F1855379800BF982B /* kestrel_klee.mp3 */,
 				1EF30B5C185531D4007FA696 /* ferriginous_call.mp3 */,
 				1EF30B2C1853DAFE007FA696 /* Coopers_Hawk_Distress.mp3 */,
 				1EF30B2D1853DAFE007FA696 /* Coopers_Hawk_Chick.mp3 */,
@@ -310,27 +352,41 @@
 			files = (
 				1EF30B5418552681007FA696 /* hawk80.png in Resources */,
 				1EF30B411853DAFE007FA696 /* Red_Tailed_Hawk_Scolding_Call.mp3 in Resources */,
+				1EA643971855379800BF982B /* kestrel_klee.mp3 in Resources */,
 				1EF30B5718552681007FA696 /* hawk152.png in Resources */,
 				1EF30B381853DAFE007FA696 /* Coopers_Hawk_Distress.mp3 in Resources */,
 				1EF30B421853DAFE007FA696 /* Red_Tailed_Hawk_Adult_Scream.mp3 in Resources */,
 				1EF30B3E1853DAFE007FA696 /* Sharp_Shinned_Squeaky.mp3 in Resources */,
+				1EA643A318553C1A00BF982B /* osprey.mp3 in Resources */,
 				1EF30AFF1853CD00007FA696 /* InfoPlist.strings in Resources */,
+				1EA643961855379800BF982B /* american_kestrel_chatter.mp3 in Resources */,
 				1EF30B5818552681007FA696 /* hawk29.png in Resources */,
+				1EA643A018553C1A00BF982B /* hawk_screeching.mp3 in Resources */,
 				1EF30B5618552681007FA696 /* hawk40.png in Resources */,
 				1EF30B3B1853DAFE007FA696 /* Cooper_Hawk_Alarm.mp3 in Resources */,
 				1EF30B391853DAFE007FA696 /* Coopers_Hawk_Chick.mp3 in Resources */,
+				1EA643A118553C1A00BF982B /* generic_hawk_2.mp3 in Resources */,
+				1EA643A218553C1A00BF982B /* generic_hawk_1.mp3 in Resources */,
 				1EF30B3A1853DAFE007FA696 /* Coopers_Hawk_Food.mp3 in Resources */,
 				1EF30B5D185531D4007FA696 /* ferriginous_call.mp3 in Resources */,
+				1EA6439E18553C1A00BF982B /* merlin.mp3 in Resources */,
+				1EA643911855379800BF982B /* bald_eagle_juvenile_begging.mp3 in Resources */,
+				1EA643941855379800BF982B /* bald_eagle_chatter.mp3 in Resources */,
+				1EA643951855379800BF982B /* kestrel_various.mp3 in Resources */,
 				1EF30B5518552681007FA696 /* hawk120.png in Resources */,
 				1EF30B071853CD00007FA696 /* Images.xcassets in Resources */,
 				1EF30B5918552681007FA696 /* hawk58.png in Resources */,
+				1EA643931855379800BF982B /* bald_eagle_peal.mp3 in Resources */,
 				1EF30B5B185526A5007FA696 /* hawk76.png in Resources */,
+				1EA643921855379800BF982B /* bald_eagle_juvenile_peal.mp3 in Resources */,
+				1EA6439F18553C1A00BF982B /* hawk_screeching_valley.mp3 in Resources */,
 				1EF30B3D1853DAFE007FA696 /* Sharp_Shinned_Various.mp3 in Resources */,
 				1EF30B241853CD6D007FA696 /* HUHawkSounds.storyboard in Resources */,
 				1EF30B3F1853DAFE007FA696 /* Sharp_Shinned_Alarm_Call.mp3 in Resources */,
 				1EF30B3C1853DAFE007FA696 /* Cooper_Hawk_Near_Nest.mp3 in Resources */,
 				1EF30B401853DAFE007FA696 /* Red_Tailed_Hawk_Chick.mp3 in Resources */,
 				1EF30B431853DAFE007FA696 /* Red_Tailed_Hawk_Scream.mp3 in Resources */,
+				1EA643901855379800BF982B /* bald_eagle_lowkuk.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +534,7 @@
 				GCC_PREFIX_HEADER = "HawkSounds/HawkSounds-Prefix.pch";
 				INFOPLIST_FILE = "HawkSounds/HawkSounds-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7DA307B4-DC08-4427-A193-3A9DDB5BC368";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -493,7 +549,7 @@
 				GCC_PREFIX_HEADER = "HawkSounds/HawkSounds-Prefix.pch";
 				INFOPLIST_FILE = "HawkSounds/HawkSounds-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7DA307B4-DC08-4427-A193-3A9DDB5BC368";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -559,6 +615,7 @@
 				1EF30B1F1853CD00007FA696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EF30B201853CD00007FA696 /* Build configuration list for PBXNativeTarget "HawkSoundsTests" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +624,7 @@
 				1EF30B221853CD00007FA696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
