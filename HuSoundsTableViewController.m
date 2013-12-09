@@ -11,6 +11,8 @@
 
 @interface HuSoundsTableViewController () {
     NSArray *records;
+    
+    UIImageView *hawkImageView;
 }
 
 @end
@@ -130,8 +132,25 @@
 
 -(void)setupHawkBird {
     UIImage *image = [UIImage imageNamed:@"spreadeagle_400.png"];
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:image]; //initWithFrame:CGRectMake(0, 0, 400, 400)];
-    [self.view addSubview:imageView];
+    hawkImageView = [[UIImageView alloc] initWithImage:image]; //initWithFrame:CGRectMake(0, 0, 400, 400)];
+    hawkImageView.transform = CGAffineTransformMakeRotation(190.0 * M_PI / 180.0);
+    [hawkImageView setFrame:CGRectMake(-400, -400, 400, 400)];
+    [self.navigationController.view addSubview:hawkImageView];
+    
+    [self performSelector:@selector(doHawkBirdAnimation) withObject:nil afterDelay:((arc4random()%500) / 100.0f)];
+}
+
+-(void)doHawkBirdAnimation {
+    [hawkImageView setFrame:CGRectMake(-400, -400, 400, 400)];
+    [self.navigationController.view bringSubviewToFront:hawkImageView];
+
+    [UIView animateWithDuration:5.0 animations:^{
+        [hawkImageView setFrame:CGRectMake(400, 400, 400, 400)];
+
+    }];
+    
+    [self performSelector:@selector(doHawkBirdAnimation) withObject:nil afterDelay:((arc4random()%1000) / 100.0f) + 5];
+
 }
 
 @end
