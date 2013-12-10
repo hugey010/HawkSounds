@@ -104,13 +104,11 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    // Return the number of sections.
     return [records count];;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    // Return the number of rows in the section.
     NSDictionary *singleBird = records[section];
     NSArray *sounds = singleBird[@"sounds"];
     return [sounds count];
@@ -149,7 +147,7 @@
 
     }];
     
-    [self performSelector:@selector(doHawkBirdAnimation) withObject:nil afterDelay:((arc4random()%1000) / 100.0f) + 5];
+    [self performSelector:@selector(doHawkBirdAnimation) withObject:nil afterDelay:((arc4random()%1000) / 100.0f) + 8];
 
 }
 

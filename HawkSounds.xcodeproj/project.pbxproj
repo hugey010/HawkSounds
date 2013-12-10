@@ -76,7 +76,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E7AC1B218567A4600CE719E /* spreadeagle_400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spreadeagle_400.png; sourceTree = "<group>"; };
+		1E7AC1B218567A4600CE719E /* spreadeagle_400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spreadeagle_400.png; path = ../spreadeagle_400.png; sourceTree = "<group>"; };
 		1EA643881855379800BF982B /* bald_eagle_lowkuk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bald_eagle_lowkuk.mp3; sourceTree = "<group>"; };
 		1EA643891855379800BF982B /* bald_eagle_juvenile_begging.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bald_eagle_juvenile_begging.mp3; sourceTree = "<group>"; };
 		1EA6438A1855379800BF982B /* bald_eagle_juvenile_peal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bald_eagle_juvenile_peal.mp3; sourceTree = "<group>"; };
@@ -91,11 +91,11 @@
 		1EA6439B18553C1A00BF982B /* generic_hawk_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = generic_hawk_2.mp3; sourceTree = "<group>"; };
 		1EA6439C18553C1A00BF982B /* generic_hawk_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = generic_hawk_1.mp3; sourceTree = "<group>"; };
 		1EA6439D18553C1A00BF982B /* osprey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = osprey.mp3; sourceTree = "<group>"; };
-		1EA643A61856726600BF982B /* hawesome_splash_2048x1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawesome_splash_2048x1536.png; sourceTree = "<group>"; };
-		1EA643A8185672C400BF982B /* hawesome_splash_1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawesome_splash_1024x768.png; sourceTree = "<group>"; };
-		1EA643AA1856733000BF982B /* hawesome_splash_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawesome_splash_640x1136.png; sourceTree = "<group>"; };
-		1EA643AC1856736D00BF982B /* hawesome_splash_1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawesome_splash_1536x2048.png; sourceTree = "<group>"; };
-		1EA643AE185673C200BF982B /* hawesome_splash_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawesome_splash_640x960.png; sourceTree = "<group>"; };
+		1EA643A61856726600BF982B /* hawesome_splash_2048x1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawesome_splash_2048x1536.png; path = ../hawesome_splash_2048x1536.png; sourceTree = "<group>"; };
+		1EA643A8185672C400BF982B /* hawesome_splash_1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawesome_splash_1024x768.png; path = ../hawesome_splash_1024x768.png; sourceTree = "<group>"; };
+		1EA643AA1856733000BF982B /* hawesome_splash_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawesome_splash_640x1136.png; path = ../hawesome_splash_640x1136.png; sourceTree = "<group>"; };
+		1EA643AC1856736D00BF982B /* hawesome_splash_1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawesome_splash_1536x2048.png; path = ../hawesome_splash_1536x2048.png; sourceTree = "<group>"; };
+		1EA643AE185673C200BF982B /* hawesome_splash_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawesome_splash_640x960.png; path = ../hawesome_splash_640x960.png; sourceTree = "<group>"; };
 		1EF30AF11853CD00007FA696 /* HawkSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HawkSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF30AF41853CD00007FA696 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1EF30AF61853CD00007FA696 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -130,13 +130,13 @@
 		1EF30B47185504FD007FA696 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1EF30B491855067E007FA696 /* HUSoundCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUSoundCell.h; sourceTree = "<group>"; };
 		1EF30B4A1855067E007FA696 /* HUSoundCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUSoundCell.m; sourceTree = "<group>"; };
-		1EF30B4E18552681007FA696 /* hawk80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawk80.png; sourceTree = "<group>"; };
-		1EF30B4F18552681007FA696 /* hawk120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawk120.png; sourceTree = "<group>"; };
-		1EF30B5018552681007FA696 /* hawk40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawk40.png; sourceTree = "<group>"; };
-		1EF30B5118552681007FA696 /* hawk152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawk152.png; sourceTree = "<group>"; };
-		1EF30B5218552681007FA696 /* hawk29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawk29.png; sourceTree = "<group>"; };
-		1EF30B5318552681007FA696 /* hawk58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawk58.png; sourceTree = "<group>"; };
-		1EF30B5A185526A5007FA696 /* hawk76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawk76.png; sourceTree = "<group>"; };
+		1EF30B4E18552681007FA696 /* hawk80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawk80.png; path = ../hawk80.png; sourceTree = "<group>"; };
+		1EF30B4F18552681007FA696 /* hawk120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawk120.png; path = ../hawk120.png; sourceTree = "<group>"; };
+		1EF30B5018552681007FA696 /* hawk40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawk40.png; path = ../hawk40.png; sourceTree = "<group>"; };
+		1EF30B5118552681007FA696 /* hawk152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawk152.png; path = ../hawk152.png; sourceTree = "<group>"; };
+		1EF30B5218552681007FA696 /* hawk29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawk29.png; path = ../hawk29.png; sourceTree = "<group>"; };
+		1EF30B5318552681007FA696 /* hawk58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawk58.png; path = ../hawk58.png; sourceTree = "<group>"; };
+		1EF30B5A185526A5007FA696 /* hawk76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawk76.png; path = ../hawk76.png; sourceTree = "<group>"; };
 		1EF30B5C185531D4007FA696 /* ferriginous_call.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ferriginous_call.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,7 +165,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1EF30AE81853CD00007FA696 = {
+		1ED029401856E04E0071DCD3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				1E7AC1B218567A4600CE719E /* spreadeagle_400.png */,
@@ -181,6 +181,13 @@
 				1EF30B5118552681007FA696 /* hawk152.png */,
 				1EF30B5218552681007FA696 /* hawk29.png */,
 				1EF30B5318552681007FA696 /* hawk58.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1EF30AE81853CD00007FA696 = {
+			isa = PBXGroup;
+			children = (
 				1EF30AFA1853CD00007FA696 /* HawkSounds */,
 				1EF30B131853CD00007FA696 /* HawkSoundsTests */,
 				1EF30AF31853CD00007FA696 /* Frameworks */,
@@ -212,6 +219,7 @@
 		1EF30AFA1853CD00007FA696 /* HawkSounds */ = {
 			isa = PBXGroup;
 			children = (
+				1ED029401856E04E0071DCD3 /* Resources */,
 				1EF30B281853CEE8007FA696 /* HuSoundsTableViewController.h */,
 				1EF30B291853CEE8007FA696 /* HuSoundsTableViewController.m */,
 				1EF30B231853CD6D007FA696 /* HUHawkSounds.storyboard */,
@@ -557,7 +565,7 @@
 				GCC_PREFIX_HEADER = "HawkSounds/HawkSounds-Prefix.pch";
 				INFOPLIST_FILE = "HawkSounds/HawkSounds-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "7DA307B4-DC08-4427-A193-3A9DDB5BC368";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -571,7 +579,7 @@
 				GCC_PREFIX_HEADER = "HawkSounds/HawkSounds-Prefix.pch";
 				INFOPLIST_FILE = "HawkSounds/HawkSounds-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "7DA307B4-DC08-4427-A193-3A9DDB5BC368";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
