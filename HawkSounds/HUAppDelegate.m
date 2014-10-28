@@ -7,6 +7,7 @@
 //
 
 #import "HUAppDelegate.h"
+#import "Constants.h"
 
 @implementation HUAppDelegate
 
@@ -21,6 +22,22 @@
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:[UIFont
+                                                                           fontWithName:@"Helvetica" size:18], NSFontAttributeName,
+                                kRustColor, NSForegroundColorAttributeName, nil];
+    [[UINavigationBar appearance] setTitleTextAttributes:attributes];
+    [[UILabel appearance] setTextColor:kBuffColor];
+    [[UISlider appearance] setTintColor:kRustColor];
+    
+    [[UIButton appearance] setTitleColor:kRustColor forState:UIControlStateNormal];
+    
+    //[[UINavigationBar appearance] setTintColor:kBuffColor];
+    [[UINavigationBar appearance] setBarTintColor:kBuffColor];
+    //[[UINavigationBar appearance] setTranslucent:NO];
+    //[[UIButton appearance] setBackgroundColor:buffColor];
+    
+    
     return YES;
 }
 

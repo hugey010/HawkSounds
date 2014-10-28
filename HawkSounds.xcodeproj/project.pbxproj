@@ -76,6 +76,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E26548719FF384A002FD8A3 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		1E7AC1B218567A4600CE719E /* spreadeagle_400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spreadeagle_400.png; path = ../spreadeagle_400.png; sourceTree = "<group>"; };
 		1EA643881855379800BF982B /* bald_eagle_lowkuk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bald_eagle_lowkuk.mp3; sourceTree = "<group>"; };
 		1EA643891855379800BF982B /* bald_eagle_juvenile_begging.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bald_eagle_juvenile_begging.mp3; sourceTree = "<group>"; };
@@ -181,6 +182,7 @@
 				1EF30B5118552681007FA696 /* hawk152.png */,
 				1EF30B5218552681007FA696 /* hawk29.png */,
 				1EF30B5318552681007FA696 /* hawk58.png */,
+				1E26548719FF384A002FD8A3 /* Constants.h */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -565,7 +567,7 @@
 				GCC_PREFIX_HEADER = "HawkSounds/HawkSounds-Prefix.pch";
 				INFOPLIST_FILE = "HawkSounds/HawkSounds-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7DA307B4-DC08-4427-A193-3A9DDB5BC368";
+				PROVISIONING_PROFILE = "F9378746-D106-40CB-BB18-A4AADFA05F88";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -579,7 +581,7 @@
 				GCC_PREFIX_HEADER = "HawkSounds/HawkSounds-Prefix.pch";
 				INFOPLIST_FILE = "HawkSounds/HawkSounds-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7DA307B4-DC08-4427-A193-3A9DDB5BC368";
+				PROVISIONING_PROFILE = "F9378746-D106-40CB-BB18-A4AADFA05F88";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -8,6 +8,7 @@
 
 #import "HuSoundsTableViewController.h"
 #import "HUSoundCell.h"
+#import "Constants.h"
 
 @interface HuSoundsTableViewController () {
     NSArray *records;
@@ -18,15 +19,6 @@
 @end
 
 @implementation HuSoundsTableViewController
-
-- (id)initWithStyle:(UITableViewStyle)style
-{
-    self = [super initWithStyle:style];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 - (void)viewDidLoad
 {
@@ -114,8 +106,29 @@
     return [sounds count];
 }
 
+/*
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     return records[section][@"name"];
+}
+ */ 
+
+-(UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 32)];
+
+    view.backgroundColor = kBuffColor;
+    
+    UILabel *nameLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 0, tableView.frame.size.width - 20, 32)];
+    nameLabel.text = records[section][@"name"];
+    nameLabel.textColor = kRustColor;
+    nameLabel.font = [UIFont fontWithName:@"Helvetica" size:22];
+    
+    [view addSubview:nameLabel];
+
+    return view;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 32;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -132,22 +145,24 @@
     UIImage *image = [UIImage imageNamed:@"spreadeagle_400.png"];
     hawkImageView = [[UIImageView alloc] initWithImage:image]; //initWithFrame:CGRectMake(0, 0, 400, 400)];
     hawkImageView.transform = CGAffineTransformMakeRotation(190.0 * M_PI / 180.0);
-    [hawkImageView setFrame:CGRectMake(-400, -400, 400, 400)];
+    CGFloat screenMax = MAX(self.view.frame.size.height, self.view.frame.size.width);
+    [hawkImageView setFrame:CGRectMake(-screenMax, -screenMax, 400, 400)];
     [self.navigationController.view addSubview:hawkImageView];
     
     [self performSelector:@selector(doHawkBirdAnimation) withObject:nil afterDelay:((arc4random()%500) / 100.0f)];
 }
 
 -(void)doHawkBirdAnimation {
-    [hawkImageView setFrame:CGRectMake(-400, -400, 400, 400)];
+    CGFloat screenMax = MAX(self.view.frame.size.height, self.view.frame.size.width);
+    [hawkImageView setFrame:CGRectMake(-screenMax, -screenMax, 400, 400)];
     [self.navigationController.view bringSubviewToFront:hawkImageView];
+    
 
-    [UIView animateWithDuration:5.0 animations:^{
-        [hawkImageView setFrame:CGRectMake(400, 400, 400, 400)];
-
+    [UIView animateWithDuration:6.0 animations:^{
+        [hawkImageView setFrame:CGRectMake(screenMax, screenMax, 400, 400)];
     }];
     
-    [self performSelector:@selector(doHawkBirdAnimation) withObject:nil afterDelay:((arc4random()%1000) / 100.0f) + 8];
+    [self performSelector:@selector(doHawkBirdAnimation) withObject:nil afterDelay:((arc4random()%1000) / 100.0f) + 17.0];
 
 }
 

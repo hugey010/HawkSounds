@@ -10,29 +10,29 @@
 	<string>HawkSounds</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>47101578-FDA9-4047-A637-FC1F9E505FCF</key>
+		<key>32EC1A2AA85DB1D11EAF8E525F30A3C73ABCF137</key>
 		<string>https://github.com/hugey010/HawkSounds.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>HawkSounds.xcodeproj/project.xcworkspace</string>
+	<string>HawkSounds.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>47101578-FDA9-4047-A637-FC1F9E505FCF</key>
+		<key>32EC1A2AA85DB1D11EAF8E525F30A3C73ABCF137</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/hugey010/HawkSounds.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>47101578-FDA9-4047-A637-FC1F9E505FCF</string>
+	<string>32EC1A2AA85DB1D11EAF8E525F30A3C73ABCF137</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>47101578-FDA9-4047-A637-FC1F9E505FCF</string>
+			<string>32EC1A2AA85DB1D11EAF8E525F30A3C73ABCF137</string>
 			<key>IDESourceControlWCCName</key>
 			<string>HawkSounds</string>
 		</dict>
