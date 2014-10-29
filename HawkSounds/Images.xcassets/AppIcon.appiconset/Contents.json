@@ -3,55 +3,61 @@
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "hawkface29.png",
+      "filename" : "hawk_icon_58-1.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "hawkface40.png",
+      "filename" : "hawk_icon_80-1.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "hawkface60.png",
+      "filename" : "hawk_icon_120-1.png",
       "scale" : "2x"
+    },
+    {
+      "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "hawk_icon_180.png",
+      "scale" : "3x"
     },
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "hawkface29-1.png",
+      "filename" : "hawk_icon_29-1.png",
       "scale" : "1x"
     },
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "hawkface60-1.png",
+      "filename" : "hawk_icon_58.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "ipad",
-      "filename" : "hawkface40-1.png",
+      "filename" : "hawk_icon_40-1.png",
       "scale" : "1x"
     },
     {
       "size" : "40x40",
       "idiom" : "ipad",
-      "filename" : "hawkface152-1.png",
+      "filename" : "hawk_icon_80.png",
       "scale" : "2x"
     },
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "hawkface76.png",
+      "filename" : "hawk_icon_76.png",
       "scale" : "1x"
     },
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "hawkface152.png",
+      "filename" : "hawk_icon_152.png",
       "scale" : "2x"
     }
   ],

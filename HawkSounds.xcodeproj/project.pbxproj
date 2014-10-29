@@ -55,13 +55,6 @@
 		1EF30B431853DAFE007FA696 /* Red_Tailed_Hawk_Scream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B371853DAFE007FA696 /* Red_Tailed_Hawk_Scream.mp3 */; };
 		1EF30B48185504FD007FA696 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF30B47185504FD007FA696 /* AVFoundation.framework */; };
 		1EF30B4B1855067E007FA696 /* HUSoundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF30B4A1855067E007FA696 /* HUSoundCell.m */; };
-		1EF30B5418552681007FA696 /* hawk80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B4E18552681007FA696 /* hawk80.png */; };
-		1EF30B5518552681007FA696 /* hawk120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B4F18552681007FA696 /* hawk120.png */; };
-		1EF30B5618552681007FA696 /* hawk40.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B5018552681007FA696 /* hawk40.png */; };
-		1EF30B5718552681007FA696 /* hawk152.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B5118552681007FA696 /* hawk152.png */; };
-		1EF30B5818552681007FA696 /* hawk29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B5218552681007FA696 /* hawk29.png */; };
-		1EF30B5918552681007FA696 /* hawk58.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B5318552681007FA696 /* hawk58.png */; };
-		1EF30B5B185526A5007FA696 /* hawk76.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B5A185526A5007FA696 /* hawk76.png */; };
 		1EF30B5D185531D4007FA696 /* ferriginous_call.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EF30B5C185531D4007FA696 /* ferriginous_call.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -131,13 +124,6 @@
 		1EF30B47185504FD007FA696 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1EF30B491855067E007FA696 /* HUSoundCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUSoundCell.h; sourceTree = "<group>"; };
 		1EF30B4A1855067E007FA696 /* HUSoundCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUSoundCell.m; sourceTree = "<group>"; };
-		1EF30B4E18552681007FA696 /* hawk80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawk80.png; path = ../hawk80.png; sourceTree = "<group>"; };
-		1EF30B4F18552681007FA696 /* hawk120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawk120.png; path = ../hawk120.png; sourceTree = "<group>"; };
-		1EF30B5018552681007FA696 /* hawk40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawk40.png; path = ../hawk40.png; sourceTree = "<group>"; };
-		1EF30B5118552681007FA696 /* hawk152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawk152.png; path = ../hawk152.png; sourceTree = "<group>"; };
-		1EF30B5218552681007FA696 /* hawk29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawk29.png; path = ../hawk29.png; sourceTree = "<group>"; };
-		1EF30B5318552681007FA696 /* hawk58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawk58.png; path = ../hawk58.png; sourceTree = "<group>"; };
-		1EF30B5A185526A5007FA696 /* hawk76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hawk76.png; path = ../hawk76.png; sourceTree = "<group>"; };
 		1EF30B5C185531D4007FA696 /* ferriginous_call.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ferriginous_call.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -175,13 +161,6 @@
 				1EA643AA1856733000BF982B /* hawesome_splash_640x1136.png */,
 				1EA643A61856726600BF982B /* hawesome_splash_2048x1536.png */,
 				1EA643A8185672C400BF982B /* hawesome_splash_1024x768.png */,
-				1EF30B5A185526A5007FA696 /* hawk76.png */,
-				1EF30B4E18552681007FA696 /* hawk80.png */,
-				1EF30B4F18552681007FA696 /* hawk120.png */,
-				1EF30B5018552681007FA696 /* hawk40.png */,
-				1EF30B5118552681007FA696 /* hawk152.png */,
-				1EF30B5218552681007FA696 /* hawk29.png */,
-				1EF30B5318552681007FA696 /* hawk58.png */,
 				1E26548719FF384A002FD8A3 /* Constants.h */,
 			);
 			name = Resources;
@@ -344,7 +323,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = HU;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Hugey;
 				TargetAttributes = {
 					1EF30AF01853CD00007FA696 = {
@@ -378,19 +357,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EF30B5418552681007FA696 /* hawk80.png in Resources */,
 				1EF30B411853DAFE007FA696 /* Red_Tailed_Hawk_Scolding_Call.mp3 in Resources */,
 				1EA643971855379800BF982B /* kestrel_klee.mp3 in Resources */,
-				1EF30B5718552681007FA696 /* hawk152.png in Resources */,
 				1EF30B381853DAFE007FA696 /* Coopers_Hawk_Distress.mp3 in Resources */,
 				1EF30B421853DAFE007FA696 /* Red_Tailed_Hawk_Adult_Scream.mp3 in Resources */,
 				1EF30B3E1853DAFE007FA696 /* Sharp_Shinned_Squeaky.mp3 in Resources */,
 				1EA643A318553C1A00BF982B /* osprey.mp3 in Resources */,
 				1EF30AFF1853CD00007FA696 /* InfoPlist.strings in Resources */,
 				1EA643961855379800BF982B /* american_kestrel_chatter.mp3 in Resources */,
-				1EF30B5818552681007FA696 /* hawk29.png in Resources */,
 				1EA643A018553C1A00BF982B /* hawk_screeching.mp3 in Resources */,
-				1EF30B5618552681007FA696 /* hawk40.png in Resources */,
 				1EF30B3B1853DAFE007FA696 /* Cooper_Hawk_Alarm.mp3 in Resources */,
 				1EA643AB1856733000BF982B /* hawesome_splash_640x1136.png in Resources */,
 				1EF30B391853DAFE007FA696 /* Coopers_Hawk_Chick.mp3 in Resources */,
@@ -403,11 +378,8 @@
 				1EA643911855379800BF982B /* bald_eagle_juvenile_begging.mp3 in Resources */,
 				1EA643941855379800BF982B /* bald_eagle_chatter.mp3 in Resources */,
 				1EA643951855379800BF982B /* kestrel_various.mp3 in Resources */,
-				1EF30B5518552681007FA696 /* hawk120.png in Resources */,
 				1EF30B071853CD00007FA696 /* Images.xcassets in Resources */,
-				1EF30B5918552681007FA696 /* hawk58.png in Resources */,
 				1EA643931855379800BF982B /* bald_eagle_peal.mp3 in Resources */,
-				1EF30B5B185526A5007FA696 /* hawk76.png in Resources */,
 				1EA643921855379800BF982B /* bald_eagle_juvenile_peal.mp3 in Resources */,
 				1E7AC1B318567A4600CE719E /* spreadeagle_400.png in Resources */,
 				1EA643A9185672C400BF982B /* hawesome_splash_1024x768.png in Resources */,
@@ -488,7 +460,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -528,7 +499,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -561,13 +531,14 @@
 		1EF30B1E1853CD00007FA696 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HawkSounds/HawkSounds-Prefix.pch";
 				INFOPLIST_FILE = "HawkSounds/HawkSounds-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "F9378746-D106-40CB-BB18-A4AADFA05F88";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -575,13 +546,14 @@
 		1EF30B1F1853CD00007FA696 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HawkSounds/HawkSounds-Prefix.pch";
 				INFOPLIST_FILE = "HawkSounds/HawkSounds-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "F9378746-D106-40CB-BB18-A4AADFA05F88";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -589,7 +561,6 @@
 		1EF30B211853CD00007FA696 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HawkSounds.app/HawkSounds";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -612,7 +583,6 @@
 		1EF30B221853CD00007FA696 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HawkSounds.app/HawkSounds";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
